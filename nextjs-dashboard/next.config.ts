@@ -1,7 +1,9 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  experimental: {
+    ppr: false // Change this value to false
+  }
 };
 
 export default nextConfig;
